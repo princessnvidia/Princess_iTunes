@@ -7,7 +7,7 @@ Princess iTunes focuses on a beautiful library, smooth navigation and an elegant
 
 ## Demo
 
-<img src="docs/demo.gif" width="100%">
+
 
 ---
 
