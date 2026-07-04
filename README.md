@@ -4,6 +4,7 @@ A modern music player for Linux inspired by the classic iTunes experience.
 
 Princess iTunes focuses on a beautiful library, smooth navigation and an elegant desktop experience while remaining lightweight and open source.
 
+![Princess iTunes Demo](docs/demo.gif)
 
 ---
 
