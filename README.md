@@ -1,30 +1,30 @@
 # Princess iTunes 🎵
 
-A modern music player for Linux inspired by the classic iTunes experience.
+Modern desktop music player for Linux focused on **beautiful libraries, fluid navigation and a timeless listening experience**.
 
-Princess iTunes focuses on a beautiful library, smooth navigation and an elegant desktop experience while remaining lightweight and open source.
+Princess iTunes reimagines the classic desktop music player by combining elegant interface design with modern Linux technologies and lightweight performance.
 
-
-## Demo
+---
 
 <p align="center">
-  <img src="docs/demo.gif" width="100%">
+  <img src="docs/demo.gif" alt="Princess iTunes Demo" width="100%">
 </p>
 
 ---
 
-## Features
+# Features
 
-### 🎶 Music Library
+## 🎶 Music Library
 
 - Import local music folders
-- Album and artist browsing
+- Album browsing
+- Artist browsing
 - Playlist management
-- Search library instantly
+- Instant search
 - Recently played
 - Favorites
 
-### 🎧 Playback
+## 🎧 Playback
 
 - Play / Pause / Next / Previous
 - Shuffle
@@ -33,45 +33,92 @@ Princess iTunes focuses on a beautiful library, smooth navigation and an elegant
 - Volume control
 - Keyboard shortcuts
 
-### 🎨 Interface
+## 🎨 Interface
 
-- Modern interface
+- Modern desktop interface
 - Dark & Light themes
 - Album artwork
-- Responsive layout
 - Smooth animations
+- Responsive layouts
 
-### 📚 Library Management
+## 📚 Library Management
 
-- Automatic library scan
+- Automatic library scanning
 - Metadata support
 - Album grouping
 - Artist grouping
 - Genre browsing
 
-### ⚡ Performance
+## ⚡ Performance
 
 - Fast startup
-- Optimized library indexing
+- Optimized indexing
 - Low memory usage
-- Large collection support
+- Large music collections
 
 ---
 
-## Roadmap
+# Tech Stack
 
-- [ ] Lyrics support
+- Python
+- PySide6
+- Qt6
+
+---
+
+# Application Architecture
+
+```
+Music Library
+      │
+      ▼
+Metadata Scanner
+      │
+      ▼
+Database
+      │
+      ▼
+Library Browser
+      │
+      ▼
+Playback Engine
+      │
+      ▼
+Audio Output
+```
+
+---
+
+# Roadmap
+
+## Playback
+
+- [ ] Gapless playback
+- [ ] Crossfade
 - [ ] Equalizer
-- [ ] Podcasts
-- [ ] Internet radio
-- [ ] Last.fm integration
-- [ ] MPRIS support
-- [ ] Mini player
+
+## Library
+
 - [ ] Smart playlists
+- [ ] Advanced search
+- [ ] Better metadata editing
+
+## Integration
+
+- [ ] MPRIS support
+- [ ] Last.fm integration
+- [ ] Internet radio
+- [ ] Podcasts
+
+## Interface
+
+- [ ] Mini player
+- [ ] Lyrics support
+- [ ] Visualizer
 
 ---
 
-## Installation
+# Installation
 
 ```bash
 git clone https://github.com/princessnvidia/princess-itunes.git
@@ -85,26 +132,33 @@ python princess_itunes.py
 
 ---
 
-## Screenshots
+# Philosophy
 
-Coming soon.
+Princess iTunes is built around the idea that listening to music on the desktop should feel enjoyable.
 
----
+Instead of overwhelming users with countless options, the application focuses on smooth navigation, elegant library management and an interface designed to stay out of the way while your music remains the center of attention.
 
-## Technologies
-
-- Python
-- PySide6
-- Qt6
+The long-term vision is to create a modern Linux music player inspired by the simplicity and polish of classic desktop applications while remaining fully open source.
 
 ---
 
-## Philosophy
+# Inspiration
 
-Princess iTunes aims to bring back the simplicity and elegance of classic desktop music players while embracing modern Linux technologies.
+- iTunes
+- Rhythmbox
+- Elisa
+- foobar2000
+- Strawberry
+- Dopamine
 
 ---
 
-## License
+# Status
+
+🚧 Active Development
+
+---
+
+# License
 
 MIT License
